@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001172] (drone_fleet) JobQueued: {'identifier': 'drone_fleet', 'dependencies': OrderedDict()}
+[0.001613] (drone_fleet) JobStarted: {'identifier': 'drone_fleet'}
+[0.046824] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'cmake'}
+[0.046968] (drone_fleet) JobProgress: {'identifier': 'drone_fleet', 'progress': 'build'}
+[0.047032] (drone_fleet) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet', '--', '-j8', '-l8'], 'cwd': '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ayaankushwah', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ayaankushwah', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ayaankushwah/task5-ros2-AyaanKushwah', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2670', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2950', 'BUNDLED_DEBUGPY_PATH': '/home/ayaankushwah/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4247', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ayaankushwah/ros2_wr/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ayaankushwah', 'JOURNAL_STREAM': '9:26703', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ayaankushwah', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/ayaankushwah/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/ayaankushwah/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/ayaankushwah/.local/bin:/opt/ros/jazzy/bin:/home/ayaankushwah/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ayaankushwah/.local/bin:/home/ayaankushwah/.local/bin:/home/ayaankushwah/.local/bin:/home/ayaankushwah/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/ayaankushwah/.local/bin', 'SESSION_MANAGER': 'local/ayaankushwah-Latitude-5420:@/tmp/.ICE-unix/2908,unix/ayaankushwah-Latitude-5420:/tmp/.ICE-unix/2908', 'INVOCATION_ID': '392720d8595f4128a119760d1a931812', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ayaankushwah/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f114ccbe877bb86.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/ayaankushwah/.config/Code/User/workspaceStorage/4805e733fc7face3164664193b65e578/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MTMPQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-56425bbb37.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'd7f50fd81650c368e6e4939057b1266c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ayaankushwah/ros2_wr/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099370] (-) TimerEvent: {}
+[0.122234] (drone_fleet) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199494] (-) TimerEvent: {}
+[0.299922] (-) TimerEvent: {}
+[0.400409] (-) TimerEvent: {}
+[0.500855] (-) TimerEvent: {}
+[0.601235] (-) TimerEvent: {}
+[0.604750] (drone_fleet) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.664369] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.683272] (drone_fleet) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.701376] (-) TimerEvent: {}
+[0.705897] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.736585] (drone_fleet) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801534] (-) TimerEvent: {}
+[0.871952] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.874863] (drone_fleet) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901750] (-) TimerEvent: {}
+[1.002140] (-) TimerEvent: {}
+[1.007880] (drone_fleet) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102356] (-) TimerEvent: {}
+[1.148312] (drone_fleet) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.177481] (drone_fleet) StdoutLine: {'line': b'-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.202518] (-) TimerEvent: {}
+[1.302968] (-) TimerEvent: {}
+[1.403394] (-) TimerEvent: {}
+[1.440752] (drone_fleet) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.491304] (drone_fleet) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.503531] (-) TimerEvent: {}
+[1.506049] (drone_fleet) StdoutLine: {'line': b'-- Build files have been written to: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet\n'}
+[1.593965] (drone_fleet) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o\x1b[0m\n'}
+[1.599232] (drone_fleet) StdoutLine: {'line': b'[ 30%] Built target fleet_manager\n'}
+[1.602052] (drone_fleet) StdoutLine: {'line': b'[ 50%] Built target health_monitor\n'}
+[1.603612] (-) TimerEvent: {}
+[1.703988] (-) TimerEvent: {}
+[1.804362] (-) TimerEvent: {}
+[1.904768] (-) TimerEvent: {}
+[2.005115] (-) TimerEvent: {}
+[2.105530] (-) TimerEvent: {}
+[2.205947] (-) TimerEvent: {}
+[2.308768] (-) TimerEvent: {}
+[2.409339] (-) TimerEvent: {}
+[2.509838] (-) TimerEvent: {}
+[2.610287] (-) TimerEvent: {}
+[2.711431] (-) TimerEvent: {}
+[2.811920] (-) TimerEvent: {}
+[2.912329] (-) TimerEvent: {}
+[3.012863] (-) TimerEvent: {}
+[3.113348] (-) TimerEvent: {}
+[3.213782] (-) TimerEvent: {}
+[3.314266] (-) TimerEvent: {}
+[3.414705] (-) TimerEvent: {}
+[3.515139] (-) TimerEvent: {}
+[3.615579] (-) TimerEvent: {}
+[3.716011] (-) TimerEvent: {}
+[3.816454] (-) TimerEvent: {}
+[3.916826] (-) TimerEvent: {}
+[4.017292] (-) TimerEvent: {}
+[4.117762] (-) TimerEvent: {}
+[4.218166] (-) TimerEvent: {}
+[4.318567] (-) TimerEvent: {}
+[4.418959] (-) TimerEvent: {}
+[4.519432] (-) TimerEvent: {}
+[4.619836] (-) TimerEvent: {}
+[4.720232] (-) TimerEvent: {}
+[4.820689] (-) TimerEvent: {}
+[4.921277] (-) TimerEvent: {}
+[5.021671] (-) TimerEvent: {}
+[5.122119] (-) TimerEvent: {}
+[5.222570] (-) TimerEvent: {}
+[5.323138] (-) TimerEvent: {}
+[5.423664] (-) TimerEvent: {}
+[5.524207] (-) TimerEvent: {}
+[5.624863] (-) TimerEvent: {}
+[5.725363] (-) TimerEvent: {}
+[5.825781] (-) TimerEvent: {}
+[5.926175] (-) TimerEvent: {}
+[6.026605] (-) TimerEvent: {}
+[6.127112] (-) TimerEvent: {}
+[6.227566] (-) TimerEvent: {}
+[6.328005] (-) TimerEvent: {}
+[6.428398] (-) TimerEvent: {}
+[6.509529] (drone_fleet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:78\x1b[m\x1b[K,\n'}
+[6.510354] (drone_fleet) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:2\x1b[m\x1b[K:\n'}
+[6.510620] (drone_fleet) StderrLine: {'line': b'/usr/include/c++/13/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::__detail::__unique_ptr_t<_Tp> std::\x1b[01;32m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = MissionDrone; _Args = {__cxx11::basic_string<char, char_traits<char>, allocator<char> >&, float, float}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<MissionDrone>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.510897] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:40:48:\x1b[m\x1b[K   required from here\n'}
+[6.511131] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMissionDrone::MissionDrone(std::__cxx11::basic_string<char>&, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.511377] (drone_fleet) StderrLine: {'line': b' 1070 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[6.511614] (drone_fleet) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.511839] (drone_fleet) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:8\x1b[m\x1b[K:\n'}
+[6.511976] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:29:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMissionDrone::\x1b[01;32m\x1b[KMissionDrone\x1b[m\x1b[K(const std::string&, const float&, const float&, const std::string&, const std::vector<std::tuple<float, float, float> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.512113] (drone_fleet) StderrLine: {'line': b'   29 |     \x1b[01;36m\x1b[KMissionDrone\x1b[m\x1b[K(const std::string& drone_name, const float& battery_level, const float& max_altitude, const std::string& mission_name,  const std::vector<std::tuple<float, float, float>>& waypoints); //Constructor\n'}
+[6.512250] (drone_fleet) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.512381] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:29:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 3 provided\n'}
+[6.512515] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:22:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMissionDrone::\x1b[01;32m\x1b[KMissionDrone\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.512660] (drone_fleet) StderrLine: {'line': b'   22 |     \x1b[01;36m\x1b[KMissionDrone\x1b[m\x1b[K();\n'}
+[6.512813] (drone_fleet) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.512941] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:22:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[6.513068] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:8:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMissionDrone::\x1b[01;32m\x1b[KMissionDrone\x1b[m\x1b[K(const MissionDrone&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.513200] (drone_fleet) StderrLine: {'line': b'    8 | class \x1b[01;36m\x1b[KMissionDrone\x1b[m\x1b[K : public Drone{\n'}
+[6.513326] (drone_fleet) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.513480] (drone_fleet) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:8:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[6.528529] (-) TimerEvent: {}
+[6.628903] (-) TimerEvent: {}
+[6.729302] (-) TimerEvent: {}
+[6.829751] (-) TimerEvent: {}
+[6.930133] (-) TimerEvent: {}
+[7.030519] (-) TimerEvent: {}
+[7.130915] (-) TimerEvent: {}
+[7.231303] (-) TimerEvent: {}
+[7.331767] (-) TimerEvent: {}
+[7.432184] (-) TimerEvent: {}
+[7.532646] (-) TimerEvent: {}
+[7.633427] (-) TimerEvent: {}
+[7.733837] (-) TimerEvent: {}
+[7.834364] (-) TimerEvent: {}
+[7.934787] (-) TimerEvent: {}
+[8.035176] (-) TimerEvent: {}
+[8.135606] (-) TimerEvent: {}
+[8.236154] (-) TimerEvent: {}
+[8.336574] (-) TimerEvent: {}
+[8.351616] (drone_fleet) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:76: CMakeFiles/drone_node.dir/src/drone_node.cpp.o] Error 1\n'}
+[8.352148] (drone_fleet) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/drone_node.dir/all] Error 2\n'}
+[8.352484] (drone_fleet) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.356341] (drone_fleet) CommandEnded: {'returncode': 2}
+[8.375384] (drone_fleet) JobEnded: {'identifier': 'drone_fleet', 'rc': 2}
+[8.386471] (-) EventReactorShutdown: {}

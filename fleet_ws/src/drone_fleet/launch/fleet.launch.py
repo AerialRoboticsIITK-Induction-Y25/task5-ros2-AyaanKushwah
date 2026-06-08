@@ -1,0 +1,62 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+
+        # ── Alpha Drone Node ──────────────────────────────────
+        Node(
+            package='drone_fleet',
+            executable='drone_node',
+            name='alpha_drone',
+            parameters=[{
+                'drone_name': 'Alpha',
+                'initial_battery': 100.0,
+                'mission_name': 'Alpha_Mission'
+            }],
+            output='screen'
+        ),
+
+        # ── Beta Drone Node ───────────────────────────────────
+        Node(
+            package='drone_fleet',
+            executable='drone_node',
+            name='beta_drone',
+            parameters=[{
+                'drone_name': 'Beta',
+                'initial_battery': 60.0,
+                'mission_name': 'Beta_Mission'
+            }],
+            output='screen'
+        ),
+
+        # ── Gamma Drone Node (starts nearly critical) ─────────
+        Node(
+            package='drone_fleet',
+            executable='drone_node',
+            name='gamma_drone',
+            parameters=[{
+                'drone_name': 'Gamma',
+                'initial_battery': 35.0,
+                'mission_name': 'Gamma_Mission'
+            }],
+            output='screen'
+        ),
+
+        # ── Fleet Manager Node ────────────────────────────────
+        Node(
+            package='drone_fleet',
+            executable='fleet_manager',
+            name='fleet_manager',
+            output='screen'
+        ),
+
+        # ── Health Monitor Node ───────────────────────────────
+        Node(
+            package='drone_fleet',
+            executable='health_monitor',
+            name='health_monitor',
+            output='screen'
+        ),
+
+    ])

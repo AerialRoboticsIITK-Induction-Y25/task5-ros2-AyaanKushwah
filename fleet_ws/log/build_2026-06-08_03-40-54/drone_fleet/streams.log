@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet
+[0.146s] -- The C compiler identification is GNU 13.3.0
+[0.273s] -- The CXX compiler identification is GNU 13.3.0
+[0.307s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.498s] -- Detecting CXX compiler ABI info
+[0.680s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.702s] -- Detecting CXX compile features - done
+[0.717s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.073s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.463s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.582s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.627s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.941s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.947s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.092s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.137s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.352s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.387s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.650s] -- Configuring done (2.6s)
+[2.659s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[2.659s]   Cannot find source file:
+[2.659s] 
+[2.660s]     src/vehicle.cpp
+[2.660s] 
+[2.660s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.660s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.661s]   .f95 .f03 .hip .ispc
+[2.661s] 
+[2.661s] [0m
+[2.668s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[2.668s]   No SOURCES given to target: drone_node
+[2.668s] 
+[2.668s] [0m
+[2.668s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.693s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet
