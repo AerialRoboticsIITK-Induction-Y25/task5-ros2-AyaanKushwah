@@ -17,6 +17,7 @@ CMakeFiles/
 cmake_install.cmake
 Makefile
 *.cmake
+README.md
 
 # ── Compiled binaries ─────────────────────────────────────────
 *.o
@@ -26,6 +27,8 @@ Makefile
 
 # ── VS Code ───────────────────────────────────────────────────
 .vscode/
+tasks/
+.github/
 
 # ── Docker ────────────────────────────────────────────────────
 *.tar
