@@ -8,11 +8,11 @@ using namespace std;
 
 
 
-Drone::Drone(const string& name, const float& battery_level, const float& max_altitude){ //Custom Constructor
-    this->max_altitude = max_altitude;
-    this->name = name;
-    this->battery_level = battery_level;
-    setStatus("idle");
+Drone::Drone(const std::string& name, const float& battery_level,const std::string& status, const float& max_altitude)
+    : Vehicle::Vehicle(name, battery_level, status),   // initializer list
+      max_altitude(max_altitude)      // same list, not this->
+{
+    // constructor body — empty or add logic here
 }
 
 Drone::Drone() = default; //Default constructor
@@ -50,7 +50,7 @@ void Drone::land(){
 void Drone::emergency_stop(){
     //initiate emergency stop
     //velocity = 0
-    if(battery_level >= 30.0){
+    if(getBattery_level() >= 30.0){
         drain_battery(30);
     } else {
         drain_battery(getBattery_level());

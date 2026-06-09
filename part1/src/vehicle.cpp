@@ -8,6 +8,12 @@
 using namespace std;
 
 
+Vehicle::Vehicle(const std::string& name, const float& battery_level,const std::string& status){
+    this->name = name;
+    this->battery_level = battery_level;
+    setStatus(status);
+}
+
 //Method functions
 
 std::string Vehicle::get_timestamp(){
@@ -74,6 +80,10 @@ float Vehicle::getBattery_level(){
     return battery_level;
 }
 
+std::vector<std::string> Vehicle::getFlightVector(){
+    return flight_log;
+}
+
 string Vehicle::getFlight_log()
 {
     string result;
@@ -107,4 +117,11 @@ void Vehicle::setStatus(const std::string& new_status){
     flight_log.push_back(get_timestamp() + ": Status changed to " + new_status);
 }
 
+void Vehicle::setBatteryLevel(const float& battery_level){
+    this->battery_level = battery_level;
+}
+
+    void Vehicle::add_log(const std::string& entry) {
+        flight_log.push_back(entry);  // only this method touches flight_log directly
+    }
 

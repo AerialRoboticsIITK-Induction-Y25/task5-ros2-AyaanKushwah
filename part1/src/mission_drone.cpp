@@ -13,7 +13,7 @@ using namespace std;
         current_waypoint_index = 0;
 
         this->name = drone_name;
-        this->battery_level = battery_level;
+        setBatteryLevel(battery_level);
         this->max_altitude = max_altitude;
         this->mission_name = mission_name;
         this->waypoints = waypoints;
@@ -23,7 +23,8 @@ using namespace std;
 
     tuple<float, float,float> MissionDrone::next_waypoint(){
         drain_battery(1.5);
-        flight_log.push_back(get_timestamp() + ": Moved to Waypoint " + to_string(current_waypoint_index + 1));
+
+        add_log(get_timestamp() + ": Moved to Waypoint " + to_string(current_waypoint_index + 1));
         visited_waypoints.emplace_back(waypoints[current_waypoint_index], "Checkpoint " +  to_string(current_waypoint_index) + "\n");
 
         tuple waypointVector = std::make_tuple(
@@ -53,7 +54,7 @@ using namespace std;
     }
 
     void MissionDrone::skip_waypoint(const std::string& reason){
-        flight_log.push_back(get_timestamp() + ": Skipped Waypoint " + to_string(current_waypoint_index));
+        add_log(get_timestamp() + ": Skipped Waypoint " + to_string(current_waypoint_index));
         (void)reason;
         current_waypoint_index ++;
     }
@@ -63,13 +64,7 @@ using namespace std;
     }
 
     string MissionDrone::mission_summary(){ //Need to work on this
-        
-        string result;
-
-        for(const auto& it : flight_log)
-            result += it + "\n";
-
-        return result;
+        return getFlight_log();
     }
 
     string MissionDrone::getMissionName(){

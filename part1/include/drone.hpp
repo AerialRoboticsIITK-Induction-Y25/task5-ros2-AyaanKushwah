@@ -14,7 +14,9 @@ protected:
 
 public:
 
-    Drone(const std::string& name, const float& battery_level , const float& max_altitude);
+// drone.hpp — declaration only, no body
+Drone(const std::string& name, const float& battery_level,
+      const std::string& status, const float& max_altitude);  // no {} here
     Drone();
 
     ~Drone();

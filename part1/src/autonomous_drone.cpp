@@ -13,7 +13,7 @@ using namespace std;
     AutonomousDrone::AutonomousDrone(const std::string& drone_name, const float& battery_level, const float& max_altitude, const std::string& mission_name, std::vector<std::tuple<float, float, float>> auto_waypoints, const std::string& ai_mode, const std::tuple<float, float, float>& home_position){
         set_ai_mode(ai_mode);
         this->name = drone_name;
-        this->battery_level = battery_level;
+        setBatteryLevel(battery_level);
         this->max_altitude = max_altitude;
         setMissionName(mission_name);
         this->waypoints = auto_waypoints;

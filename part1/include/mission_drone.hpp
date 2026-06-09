@@ -8,13 +8,12 @@
 class MissionDrone : public Drone{
 
 private:
-    
-    std::string mission_name;
     std::vector<std::pair<std::tuple<float,float,float>, std::string>> visited_waypoints;
 
 protected:
     std::vector<std::tuple<float, float, float>> waypoints;
     int current_waypoint_index;
+    std::string mission_name;
     
 
 public:

@@ -6,13 +6,19 @@
 
 class Vehicle{ //No public setters for battery or status directly
 
-protected:
+private:
     std::string status; //only settable through a method that validates allowed states and logs with timestamp
     std::vector<std::string> flight_log;
-    std::string name;
     float battery_level;
 
+protected:
+    std::string name;
+    void setStatus(const std::string& new_status);
+    void setBatteryLevel(const float& battery_level);
+
 public:
+
+    Vehicle(const std::string& name, const float& battery_level,const std::string& status);
 
     Vehicle() = default;
 
@@ -25,7 +31,6 @@ public:
     bool is_critical();
 
       
-
     //Getter functions
 
     virtual void get_info() = 0; //purely virtual function
@@ -41,7 +46,11 @@ public:
     ///Setter Functions
 
     void setName(std::string name);
-    void setStatus(const std::string& new_status);
+    
+    std::vector<std::string> getFlightVector();
 
     std::string get_timestamp();
+
+    void add_log(const std::string& entry);
+
 };

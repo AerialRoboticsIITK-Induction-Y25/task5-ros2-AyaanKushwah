@@ -5,11 +5,12 @@
 
     class AutonomousDrone : public MissionDrone{
     private:
+        std::vector<std::string> obstacle_log;
+        
+    protected:
         std::string ai_mode;
         std::tuple<float, float, float> home_position;
-        std::vector<std::string> obstacle_log;
         std::vector<std::tuple<float, float, float>> obstacles;
-
     public:
 
         AutonomousDrone();

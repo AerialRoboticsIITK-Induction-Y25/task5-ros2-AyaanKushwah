@@ -34,7 +34,8 @@ int main(){
     // create one object of each class with actual type pointers
     Drone* drone = new Drone(
         "Alpha",    // name
-        100.0f,     // battery
+        100.0f,
+        "idle",     // battery
         120.0f      // max_altitude
     );
 
@@ -81,8 +82,8 @@ int main(){
     // cout << drone->speed;           // ❌ ERROR: 'speed' is private
     // cout << drone->status;          // ❌ ERROR: 'status' is protected
     // cout << drone->max_altitude;    // ❌ ERROR: 'max_altitude' is protected
-
     // must use getters:
+ 
     cout << "Name:     " << drone->getName()          << endl;
     cout << "Battery:  " << drone->getBattery_level() << "%" << endl;
     cout << "Status:   " << drone->getStatus()        << endl;
