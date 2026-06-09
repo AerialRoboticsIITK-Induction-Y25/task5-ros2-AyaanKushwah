@@ -154,10 +154,7 @@ std::string AutonomousDrone::get_info(){
     result = "Name: " + get_name() + "\n-----------------------------\n"
             + "Battery Level: " + to_string(get_battery_level()) + "\n-----------------------------\n"
             + "Max Altitude: " + to_string(get_battery_level()) + "\n-----------------------------\n"
-            + "Status: " + get_status
-            
-            
-            () + "\n-----------------------------\n"
+            + "Status: " + get_status() + "\n-----------------------------\n"
             + "Mission Name: " + get_mission_name() + "\n-----------------------------\n"
             + "Waypoints: " + "\n"
             + get_waypoints() + "\n"

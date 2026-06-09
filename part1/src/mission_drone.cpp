@@ -27,28 +27,25 @@ using namespace std;
         add_log(get_timestamp() + ": Moved to Waypoint " + to_string(current_waypoint_index + 1));
         visited_waypoints.emplace_back(waypoints[current_waypoint_index], "Checkpoint " +  to_string(current_waypoint_index) + "\n");
 
-        tuple waypointVector = std::make_tuple(
+            if(current_waypoint_index + 1 < (int)waypoints.size()){
+        auto waypointVector = std::make_tuple(
             get<0>(waypoints[current_waypoint_index+1]) - get<0>(waypoints[current_waypoint_index]),
             get<1>(waypoints[current_waypoint_index+1]) - get<1>(waypoints[current_waypoint_index]),
             get<2>(waypoints[current_waypoint_index+1]) - get<2>(waypoints[current_waypoint_index])
         );
 
-        //Calculating the distance between the current and the next waypoint
-        int distance = std::sqrt(
+        float distance = std::sqrt(
             pow(get<0>(waypointVector), 2) + 
             pow(get<1>(waypointVector), 2) + 
             pow(get<2>(waypointVector), 2)
         );
 
-        tuple unitVector= std::make_tuple(
-            get<0>(waypointVector) / distance,
-            get<1>(waypointVector) / distance,
-            get<2>(waypointVector) / distance);
-
-        //Calculating the component of velocities
-        set_x_speed(get_speed()*get<0>(unitVector));
-        set_y_speed(get_speed()*get<1>(unitVector));
-        set_z_speed(get_speed()*get<2>(unitVector));
+        if(distance > 0.001f){
+            set_x_speed(get_speed() * get<0>(waypointVector) / distance);
+            set_y_speed(get_speed() * get<1>(waypointVector) / distance);
+            set_z_speed(get_speed() * get<2>(waypointVector) / distance);
+        }
+    }
 
         return waypoints[current_waypoint_index++];
     }

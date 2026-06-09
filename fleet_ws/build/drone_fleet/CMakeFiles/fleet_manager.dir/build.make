@@ -83,14 +83,78 @@ CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/fleet_manager.cpp -o CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.s
 
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: CMakeFiles/fleet_manager.dir/flags.make
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: CMakeFiles/fleet_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o -MF CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o.d -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp > CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: CMakeFiles/fleet_manager.dir/flags.make
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: CMakeFiles/fleet_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o -MF CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o.d -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp > CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: CMakeFiles/fleet_manager.dir/flags.make
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: CMakeFiles/fleet_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o -MF CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o.d -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp > CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: CMakeFiles/fleet_manager.dir/flags.make
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: CMakeFiles/fleet_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o -MF CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o.d -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp > CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
+
+CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp -o CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
+
 # Object files for target fleet_manager
 fleet_manager_OBJECTS = \
-"CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o"
+"CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o" \
+"CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o" \
+"CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o" \
+"CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o" \
+"CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o"
 
 # External object files for target fleet_manager
 fleet_manager_EXTERNAL_OBJECTS =
 
 fleet_manager: CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o
+fleet_manager: CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
+fleet_manager: CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
+fleet_manager: CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
+fleet_manager: CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
 fleet_manager: CMakeFiles/fleet_manager.dir/build.make
 fleet_manager: /opt/ros/jazzy/lib/librclcpp.so
 fleet_manager: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -175,7 +239,7 @@ fleet_manager: /opt/ros/jazzy/lib/librcpputils.so
 fleet_manager: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 fleet_manager: /opt/ros/jazzy/lib/librcutils.so
 fleet_manager: CMakeFiles/fleet_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fleet_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable fleet_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fleet_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -83,14 +83,78 @@ CMakeFiles/health_monitor.dir/src/health_monitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_monitor.dir/src/health_monitor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/health_monitor.cpp -o CMakeFiles/health_monitor.dir/src/health_monitor.cpp.s
 
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: CMakeFiles/health_monitor.dir/flags.make
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o: CMakeFiles/health_monitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o -MF CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o.d -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp > CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: CMakeFiles/health_monitor.dir/flags.make
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o: CMakeFiles/health_monitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o -MF CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o.d -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp > CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: CMakeFiles/health_monitor.dir/flags.make
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o: CMakeFiles/health_monitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o -MF CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o.d -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp > CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: CMakeFiles/health_monitor.dir/flags.make
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o: CMakeFiles/health_monitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o -MF CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o.d -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o -c /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp > CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
+
+CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp -o CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
+
 # Object files for target health_monitor
 health_monitor_OBJECTS = \
-"CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o"
+"CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o" \
+"CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o" \
+"CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o" \
+"CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o" \
+"CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o"
 
 # External object files for target health_monitor
 health_monitor_EXTERNAL_OBJECTS =
 
 health_monitor: CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o
+health_monitor: CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
+health_monitor: CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
+health_monitor: CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
+health_monitor: CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
 health_monitor: CMakeFiles/health_monitor.dir/build.make
 health_monitor: /opt/ros/jazzy/lib/librclcpp.so
 health_monitor: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -167,7 +231,7 @@ health_monitor: /opt/ros/jazzy/lib/librcpputils.so
 health_monitor: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 health_monitor: /opt/ros/jazzy/lib/librcutils.so
 health_monitor: CMakeFiles/health_monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable health_monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable health_monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/health_monitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

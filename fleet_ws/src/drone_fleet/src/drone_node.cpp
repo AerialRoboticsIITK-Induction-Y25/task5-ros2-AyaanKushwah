@@ -80,14 +80,14 @@ public:
 
         RCLCPP_INFO(this->get_logger(), 
             "Drone Node [%s] started. Battery: %.1f%%", 
-            drone_name_.c_str(), drone_->getBattery_level());
+            drone_name_.c_str(), drone_->get_battery_level());
     }
 
 private:
     void status_timer_callback() {
 
         // stop publishing if landed
-        if(drone_->getStatus() == "landed"){
+        if(drone_->get_status() == "landed"){
             return;
         }
 
@@ -111,7 +111,7 @@ private:
                     drone_->next_waypoint();
                     RCLCPP_INFO(this->get_logger(), 
                         "Advanced to waypoint %d", 
-                        drone_->getCurrentWaypointIndex());
+                        drone_->get_current_waypoint_index());
                 }
                 catch(const BatteryDepletedException& e){
                     RCLCPP_ERROR(this->get_logger(), "%s", e.what());
@@ -126,7 +126,7 @@ private:
             std_msgs::msg::String alert_msg;
             alert_msg.data = "CRITICAL BATTERY: " + drone_name_ +
                              " | Battery: " +
-                             std::to_string(drone_->getBattery_level()) + "%";
+                             std::to_string(drone_->get_battery_level()) + "%";
             alert_pub_->publish(alert_msg);
             RCLCPP_WARN(this->get_logger(), 
                 "CRITICAL BATTERY! Landing drone [%s]", drone_name_.c_str());
@@ -150,15 +150,15 @@ private:
         // ── build and publish status message ──────────────────
         std_msgs::msg::String status_msg;
         std::ostringstream ss;
-        ss << "name:"     << drone_->getName()
+        ss << "name:"     << drone_->get_name()
            << "|battery:" << std::fixed << std::setprecision(1) 
-                          << drone_->getBattery_level()
+                          << drone_->get_battery_level()
            << "|altitude:"<< std::fixed << std::setprecision(1) 
-                          << drone_->getAltitude()
-           << "|status:"  << drone_->getStatus()
-           << "|waypoint:"<< drone_->getCurrentWaypointIndex() << "/5"
+                          << drone_->get_altitude()
+           << "|status:"  << drone_->get_status()
+           << "|waypoint:"<< drone_->get_current_waypoint_index() << "/5"
            << "|speed:"   << std::fixed << std::setprecision(1) 
-                          << drone_->getSpeed();
+                          << drone_->get_speed();
 
         status_msg.data = ss.str();
         status_pub_->publish(status_msg);
@@ -168,17 +168,17 @@ private:
 
     void telemetry_timer_callback() {
 
-        if(drone_->getStatus() == "landed") return;
+        if(drone_->get_status() == "landed") return;
 
         std::ostringstream json;
         json << "{"
-             << "\"name\":\""    << drone_->getName()          << "\","
-             << "\"battery\":"   << drone_->getBattery_level() << ","
-             << "\"altitude\":"  << drone_->getAltitude()      << ","
-             << "\"status\":\""  << drone_->getStatus()        << "\","
-             << "\"waypoint\":"  << drone_->getCurrentWaypointIndex() << ","
-             << "\"speed\":"     << drone_->getSpeed()         << ","
-             << "\"mission\":\""  << drone_->getMissionName()  << "\","
+             << "\"name\":\""    << drone_->get_name()          << "\","
+             << "\"battery\":"   << drone_->get_battery_level() << ","
+             << "\"altitude\":"  << drone_->get_altitude()      << ","
+             << "\"status\":\""  << drone_->get_status()        << "\","
+             << "\"waypoint\":"  << drone_->get_current_waypoint_index() << ","
+             << "\"speed\":"     << drone_->get_speed()         << ","
+             << "\"mission\":\""  << drone_->get_mission_name()  << "\","
              << "\"critical\":"  << (drone_->is_critical() ? "true" : "false")
              << "}";
 

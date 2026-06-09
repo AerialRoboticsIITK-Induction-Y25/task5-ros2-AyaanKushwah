@@ -165,12 +165,12 @@ CMakeFiles/drone_node.dir/clean:
 CMakeFiles/fleet_manager.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=7,8 "Built target fleet_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target fleet_manager"
 .PHONY : CMakeFiles/fleet_manager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fleet_manager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fleet_manager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 0
 .PHONY : CMakeFiles/fleet_manager.dir/rule
@@ -191,12 +191,12 @@ CMakeFiles/fleet_manager.dir/clean:
 CMakeFiles/health_monitor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=9,10 "Built target health_monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles --progress-num=13,14,15,16,17,18 "Built target health_monitor"
 .PHONY : CMakeFiles/health_monitor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/health_monitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_monitor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet/CMakeFiles 0
 .PHONY : CMakeFiles/health_monitor.dir/rule

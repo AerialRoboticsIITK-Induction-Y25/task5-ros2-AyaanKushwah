@@ -242,6 +242,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.o: home/aya
 # target to build an object file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.i: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
@@ -250,6 +252,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.i: home/aya
 # target to preprocess a source file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.i
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.s: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
@@ -258,6 +262,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.s: home/aya
 # target to generate assembly for a file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.s
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.o: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
@@ -266,6 +272,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.o: home/ayaankushwah/t
 # target to build an object file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.i: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
@@ -274,6 +282,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.i: home/ayaankushwah/t
 # target to preprocess a source file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.i
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.s: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
@@ -282,6 +292,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.s: home/ayaankushwah/t
 # target to generate assembly for a file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.s
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.o: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
@@ -290,6 +302,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.o: home/ayaank
 # target to build an object file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.i: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
@@ -298,6 +312,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.i: home/ayaank
 # target to preprocess a source file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.i
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.s: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
@@ -306,6 +322,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.s: home/ayaank
 # target to generate assembly for a file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.s
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.o: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
@@ -314,6 +332,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.o: home/ayaankushwah
 # target to build an object file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.i: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
@@ -322,6 +342,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.i: home/ayaankushwah
 # target to preprocess a source file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.i
 
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.s: home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
@@ -330,6 +352,8 @@ home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.s: home/ayaankushwah
 # target to generate assembly for a file
 home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fleet_manager.dir/build.make CMakeFiles/fleet_manager.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_monitor.dir/build.make CMakeFiles/health_monitor.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
 .PHONY : home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.s
 
 src/drone_node.o: src/drone_node.cpp.o
