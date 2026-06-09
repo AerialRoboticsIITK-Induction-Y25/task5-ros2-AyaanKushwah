@@ -15,5 +15,5 @@ add_executable(drone_fleet
 )
 
 target_include_directories(drone_fleet PRIVATE
-    part1/include
+    include
 )

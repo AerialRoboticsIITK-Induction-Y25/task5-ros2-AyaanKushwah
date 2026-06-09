@@ -13,8 +13,8 @@ private:
 
 protected:
     std::string name;
-    void setStatus(const std::string& new_status);
-    void setBatteryLevel(const float& battery_level);
+    void set_status(const std::string& new_status);
+    void set_battery_level(const float& battery_level);
 
 public:
 
@@ -33,21 +33,21 @@ public:
       
     //Getter functions
 
-    virtual void get_info() = 0; //purely virtual function
+    virtual std::string get_info() = 0; //purely virtual function
     
-    std::string getName();    
+    std::string get_name();    
     
-    std::string getStatus() ;
+    std::string get_status() ;
 
-    float getBattery_level();
+    float get_battery_level();
     
-    std::string getFlight_log(); //Need to think of the return type
+    std::string get_flight_log(); //Need to think of the return type
 
     ///Setter Functions
 
-    void setName(std::string name);
+    void set_name(std::string name);
     
-    std::vector<std::string> getFlightVector();
+    std::vector<std::string> get_flight_vector();
 
     std::string get_timestamp();
 

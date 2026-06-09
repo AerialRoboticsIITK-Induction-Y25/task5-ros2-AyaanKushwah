@@ -19,7 +19,7 @@ Drone::Drone() = default; //Default constructor
 
 Drone::~Drone() = default; //Default destructor
 
-void Drone::setSpeed(const float& speed){
+void Drone::set_speed(const float& speed){
     this->speed = speed;
 }
 
@@ -35,62 +35,60 @@ void Drone::take_off(float target_altitude){
         return;
     }
 
-    setStatus("flying");
+    set_status("flying");
     altitude = target_altitude;
-    setSpeed(10.0f);
+    set_speed(10.0f);
 }
 
 void Drone::land(){
-    setStatus("idle");
+    set_status("idle");
     altitude = 0;
-    setSpeed(0.0f);
+    set_speed(0.0f);
 
 }
 
 void Drone::emergency_stop(){
     //initiate emergency stop
     //velocity = 0
-    if(getBattery_level() >= 30.0){
+    if(get_battery_level() >= 30.0){
         drain_battery(30);
     } else {
-        drain_battery(getBattery_level());
+        drain_battery(get_battery_level());
     }
 
     land();
 }
 
-float Drone::getSpeed(){
+float Drone::get_speed(){
     return speed;
 }
 
-void Drone::get_info(){
-    cout << "Name: " << getName();
-    cout << "\n-----------------------------\n";
+std::string Drone::get_info(){
+    std::string result;
 
-    cout << "Battery Level: " << getBattery_level();
-    cout << "\n-----------------------------\n";
-    cout << "Max Altitude: " << this-> max_altitude;
-    cout << "\n-----------------------------\n";
-    
-    cout << "Status: " << getStatus();
-    cout << "\n-----------------------------\n";
+    result = "Name: " + get_name() + "\n-----------------------------\n"
+            + "Battery Level: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Max Altitude: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Status: " + get_status() + "\n-----------------------------\n";
+
+            return result;
 }
 
 
-void Drone::setXSpeed(const float& Xspeed){
+void Drone::set_x_speed(const float& Xspeed){
     this->v_x = Xspeed;
 
 }
 
-void Drone::setYSpeed(const float& Yspeed){
+void Drone::set_y_speed(const float& Yspeed){
     this->v_y = Yspeed;
 }
 
-void Drone::setZSpeed(const float& Zspeed){
+void Drone::set_z_speed(const float& Zspeed){
     this->v_z = Zspeed;
 }
 
-float Drone::getAltitude(){
+float Drone::get_altitude(){
     return this->altitude;
 }
 

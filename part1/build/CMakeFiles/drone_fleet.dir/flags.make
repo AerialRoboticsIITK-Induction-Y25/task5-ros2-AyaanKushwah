@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/part1/include
+CXX_INCLUDES = -I/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/include
 
 CXX_FLAGS = -std=gnu++17 -Wall -Wextra
 

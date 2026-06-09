@@ -69,9 +69,9 @@ int main(){
 
     // get_info() calls correct version for each object
     for(auto& it : drones){
-        it->get_info();
-        cout << "──────────────────────────────" << endl;
-    }
+    cout << it->get_info() << endl;
+    cout << "──────────────────────────────" << endl;
+}
 
     // ── PART 2: PRIVATE MEMBER ACCESS ─────────────────────────
 
@@ -83,12 +83,12 @@ int main(){
     // cout << drone->status;          // ❌ ERROR: 'status' is protected
     // cout << drone->max_altitude;    // ❌ ERROR: 'max_altitude' is protected
     // must use getters:
- 
-    cout << "Name:     " << drone->getName()          << endl;
-    cout << "Battery:  " << drone->getBattery_level() << "%" << endl;
-    cout << "Status:   " << drone->getStatus()        << endl;
-    cout << "Speed:    " << drone->getSpeed()         << endl;
-    cout << "Altitude: " << drone->getAltitude()      << "m" << endl;
+    
+    cout << "Name:     " << drone->get_name()          << endl;
+    cout << "Battery:  " << drone->get_battery_level() << "%" << endl;
+    cout << "Status:   " << drone->get_status()        << endl;
+    cout << "Speed:    " << drone->get_speed()         << endl;
+    cout << "Altitude: " << drone->get_altitude()      << "m" << endl;
 
     // ── PART 3: EXCEPTION HANDLING ────────────────────────────
 
@@ -98,7 +98,7 @@ int main(){
     cout << "\n--- drain_battery() normal ---" << endl;
     try {
         drone->drain_battery(30.0f);
-        cout << "Battery after drain: " << drone->getBattery_level() << "%" << endl;
+        cout << "Battery after drain: " << drone->get_battery_level() << "%" << endl;
     }
     catch(const BatteryDepletedException& e){
         cout << "Caught BatteryDepletedException!" << endl;
@@ -188,7 +188,7 @@ int main(){
     cout << "\n--- Taking off ---" << endl;
     try {
         autoDrone->take_off(15.0f);
-        cout << "Took off! Altitude: " << autoDrone->getAltitude() << "m" << endl;
+        cout << "Took off! Altitude: " << autoDrone->get_altitude() << "m" << endl;
     }
     catch(const AltitudeException& e){
         cout << "Takeoff failed: " << e.what() << endl;
@@ -205,7 +205,7 @@ int main(){
         try {
             auto current_pos = autoDrone->next_waypoint();
 
-            cout << "At waypoint " << autoDrone->getCurrentWaypointIndex()
+            cout << "At waypoint " << autoDrone->get_current_waypoint_index()
                  << ": (" << get<0>(current_pos) << ", "
                  << get<1>(current_pos) << ", "
                  << get<2>(current_pos) << ")" << endl;
@@ -230,7 +230,7 @@ int main(){
 
                     // replan path
                     auto new_waypoints = autoDrone->auto_replan(obstacles);
-                    autoDrone->setWaypoints(new_waypoints);
+                    autoDrone->set_waypoints(new_waypoints);
                     replanned = true;
 
                     cout << "  Path replanned! New waypoint count: "
@@ -252,7 +252,7 @@ int main(){
 
     // print flight log
     cout << "\n--- Flight Log ---" << endl;
-    cout << autoDrone->getFlight_log() << endl;
+    cout << autoDrone->get_flight_log() << endl;
 
     // ── CLEANUP ───────────────────────────────────────────────
     for(auto& it : drones)

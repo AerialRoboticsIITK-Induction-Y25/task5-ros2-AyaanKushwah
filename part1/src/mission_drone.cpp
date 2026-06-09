@@ -13,7 +13,7 @@ using namespace std;
         current_waypoint_index = 0;
 
         this->name = drone_name;
-        setBatteryLevel(battery_level);
+        set_battery_level(battery_level);
         this->max_altitude = max_altitude;
         this->mission_name = mission_name;
         this->waypoints = waypoints;
@@ -46,9 +46,9 @@ using namespace std;
             get<2>(waypointVector) / distance);
 
         //Calculating the component of velocities
-        setXSpeed(getSpeed()*get<0>(unitVector));
-        setYSpeed(getSpeed()*get<1>(unitVector));
-        setZSpeed(getSpeed()*get<2>(unitVector));
+        set_x_speed(get_speed()*get<0>(unitVector));
+        set_y_speed(get_speed()*get<1>(unitVector));
+        set_z_speed(get_speed()*get<2>(unitVector));
 
         return waypoints[current_waypoint_index++];
     }
@@ -64,14 +64,14 @@ using namespace std;
     }
 
     string MissionDrone::mission_summary(){ //Need to work on this
-        return getFlight_log();
+        return get_flight_log();
     }
 
-    string MissionDrone::getMissionName(){
+    string MissionDrone::get_mission_name(){
         return mission_name;
     }
 
-    string MissionDrone::getVisitedWaypoints(){
+    string MissionDrone::get_visited_waypoints(){
     string result;
     for(const auto& it : visited_waypoints){
         result += it.second + ": (" + to_string(get<0>(it.first)) + "," + to_string(get<1>(it.first)) + "," + to_string(get<2>(it.first)) + ")\n"; 
@@ -80,7 +80,7 @@ using namespace std;
     return result;
 }
 
-    string MissionDrone::getWaypoints(){
+    string MissionDrone::get_waypoints(){
         string result;
     for(const auto& it : waypoints){
         result += "(" + to_string(get<0>(it)) + "," + to_string(get<1>(it)) + "," + to_string(get<2>(it)) + ")\n"; 
@@ -89,30 +89,30 @@ using namespace std;
     return result;
     }
 
-    void MissionDrone::get_info(){
-        cout << "Drone Name: " << getName();
-        cout << "\n-----------------------------\n";
-        cout << "Battery Level: " << getBattery_level();
-        cout << "\n-----------------------------\n";
-        cout << "Max Altitude: " << this->max_altitude;
-        cout << "\n-----------------------------\n";
-        cout << "Mission Name: " << getMissionName();
-        cout << "\n-----------------------------\n";
-        cout << "Waypoints: \n" << getWaypoints();
-        cout << "\n-----------------------------\n";
-        
-    }
+std::string MissionDrone::get_info(){
+    std::string result;
+
+    result = "Name: " + get_name() + "\n-----------------------------\n"
+            + "Battery Level: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Max Altitude: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Status: " + get_status() + "\n-----------------------------\n"
+            + "Mission Name: " + get_mission_name() + "\n-----------------------------\n"
+            + "Waypoints: " + "\n"
+            + get_waypoints();
+
+            return result;
+}
 
 
-    int MissionDrone::getCurrentWaypointIndex(){
+    int MissionDrone::get_current_waypoint_index(){
         return current_waypoint_index;
     }
 
-    float MissionDrone::getAltitude(){
+    float MissionDrone::get_altitude(){
         return get<2>(waypoints[current_waypoint_index]);
     }
 
-    void MissionDrone::setMissionName(const std::string& mission_name){
+    void MissionDrone::set_mission_name(const std::string& mission_name){
         this->mission_name = mission_name;
     }
 

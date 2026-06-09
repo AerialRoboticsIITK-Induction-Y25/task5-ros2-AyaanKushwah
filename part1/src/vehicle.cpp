@@ -11,7 +11,7 @@ using namespace std;
 Vehicle::Vehicle(const std::string& name, const float& battery_level,const std::string& status){
     this->name = name;
     this->battery_level = battery_level;
-    setStatus(status);
+    set_status(status);
 }
 
 //Method functions
@@ -68,23 +68,23 @@ bool Vehicle::is_critical(){
 
 //Getter functions
 
-string Vehicle::getName(){
+string Vehicle::get_name(){
     return name;
 }
 
-string Vehicle::getStatus(){
+string Vehicle::get_status(){
     return status;
 }
 
-float Vehicle::getBattery_level(){
+float Vehicle::get_battery_level(){
     return battery_level;
 }
 
-std::vector<std::string> Vehicle::getFlightVector(){
+std::vector<std::string> Vehicle::get_flight_vector(){
     return flight_log;
 }
 
-string Vehicle::getFlight_log()
+string Vehicle::get_flight_log()
 {
     string result;
 
@@ -96,11 +96,11 @@ string Vehicle::getFlight_log()
 }
 //Setter functions
 
-void Vehicle::setName(string name){
+void Vehicle::set_name(string name){
     this->name = name;
 }
 
-void Vehicle::setStatus(const std::string& new_status){
+void Vehicle::set_status(const std::string& new_status){
     vector<string> allowed = {"idle", "flying", "charging"};
     
     // validate
@@ -117,7 +117,7 @@ void Vehicle::setStatus(const std::string& new_status){
     flight_log.push_back(get_timestamp() + ": Status changed to " + new_status);
 }
 
-void Vehicle::setBatteryLevel(const float& battery_level){
+void Vehicle::set_battery_level(const float& battery_level){
     this->battery_level = battery_level;
 }
 

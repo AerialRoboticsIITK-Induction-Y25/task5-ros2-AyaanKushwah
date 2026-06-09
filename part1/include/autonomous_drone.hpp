@@ -19,12 +19,12 @@
         void set_ai_mode(const std::string& mode);
         void detect_obstacle(std::tuple<float,float,float> position, const std::string& severity);
         std::vector<std::tuple<float,float,float>>  auto_replan(const std::vector<std::tuple<float,float,float>>& obstacles);
-        void get_info() override;
+        std::string get_info() override;
 
         std::string getMode();
-        std::tuple<float, float, float> getHomePosition();
-        std::string getObstacleLog();
-        void setWaypoints(const std::vector<std::tuple<float, float, float>>& waypoints);
+        std::tuple<float, float, float> get_home_position();
+        std::string get_obstacle_log();
+        void set_waypoints(const std::vector<std::tuple<float, float, float>>& waypoints);
 
         ~AutonomousDrone() = default;
 

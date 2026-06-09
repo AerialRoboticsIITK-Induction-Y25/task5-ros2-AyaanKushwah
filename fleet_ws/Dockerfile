@@ -1,5 +1,5 @@
 # ── STAGE 1: BUILDER ─────────────────────────────────────────
-FROM osrf/ros:humble-desktop AS builder
+FROM osrf/ros:jazzy-desktop AS builder
 
 # install dependencies
 RUN apt-get update && apt-get install -y \
@@ -18,11 +18,11 @@ RUN rosdep update && \
     rosdep install --from-paths src --ignore-src -r -y
 
 # build workspace
-RUN /bin/bash -c "source /opt/ros/humble/setup.bash && \
+RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash && \
     colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release"
 
 # ── STAGE 2: RUNTIME ─────────────────────────────────────────
-FROM osrf/ros:humble-desktop AS runtime
+FROM osrf/ros:jazzy-desktop AS runtime
 
 # install runtime dependencies
 RUN apt-get update && apt-get install -y \
@@ -34,10 +34,10 @@ WORKDIR /fleet_ws
 # copy ONLY install directory from builder
 COPY --from=builder /fleet_ws/install /fleet_ws/install
 
-# write entrypoint inline — no separate file needed
+# write entrypoint inline
 RUN echo '#!/bin/bash\n\
 set -e\n\
-source /opt/ros/humble/setup.bash\n\
+source /opt/ros/jazzy/setup.bash\n\
 source /fleet_ws/install/setup.bash\n\
 exec "$@"' > /ros_entrypoint.sh && \
     chmod +x /ros_entrypoint.sh

@@ -30,21 +30,18 @@ public:
 
     std::string mission_summary();
 
-    void get_info() override;
+    std::string get_info() override;
 
-    std::string getMissionName();
+    std::string get_mission_name();
     
-    std::string getVisitedWaypoints();
+    std::string get_visited_waypoints();
 
-    std::string getWaypoints();
+    std::string get_waypoints();
     
-    float getAltitude();
+    float get_altitude();
 
-    int getCurrentWaypointIndex();
+    int get_current_waypoint_index();
 
-    void setMissionName(const std::string& mission_name);
-
-
-
+    void set_mission_name(const std::string& mission_name);
 
 };

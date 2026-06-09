@@ -13,9 +13,9 @@ using namespace std;
     AutonomousDrone::AutonomousDrone(const std::string& drone_name, const float& battery_level, const float& max_altitude, const std::string& mission_name, std::vector<std::tuple<float, float, float>> auto_waypoints, const std::string& ai_mode, const std::tuple<float, float, float>& home_position){
         set_ai_mode(ai_mode);
         this->name = drone_name;
-        setBatteryLevel(battery_level);
+        set_battery_level(battery_level);
         this->max_altitude = max_altitude;
-        setMissionName(mission_name);
+        set_mission_name(mission_name);
         this->waypoints = auto_waypoints;
         this->home_position = home_position;
     }
@@ -144,37 +144,38 @@ std::vector<std::tuple<float,float,float>> AutonomousDrone::auto_replan(
     return new_waypoints;
 }
 
-    void AutonomousDrone::setWaypoints(const std::vector<std::tuple<float, float, float>>& waypoints){
+    void AutonomousDrone::set_waypoints(const std::vector<std::tuple<float, float, float>>& waypoints){
         this->waypoints = waypoints;
     }
 
-    void AutonomousDrone::get_info(){
-        cout << "Drone Name: " << getName();
-        cout << "\n-----------------------------\n";
-        cout << "Battery Level: " << getBattery_level();
-        cout << "\n-----------------------------\n";
-        cout << "Max Altitude: " << this->max_altitude;
-        cout << "\n-----------------------------\n";
-        cout << "Mission Name: " << getMissionName();
-        cout << "\n-----------------------------\n";
-        cout << "Waypoints: \n" << getWaypoints();
-        cout << "\n-----------------------------\n";
-        cout << "AI_Mode: " << getMode();
-        cout << "\n-----------------------------\n";
-        cout << "Home Position: " << "(" << to_string(get<0>(home_position)) << "," << to_string(get<1>(home_position)) << "," << to_string(get<2>(home_position)) << ")";
-        cout << "\n-----------------------------\n";
-        
-    };
+std::string AutonomousDrone::get_info(){
+    std::string result;
+
+    result = "Name: " + get_name() + "\n-----------------------------\n"
+            + "Battery Level: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Max Altitude: " + to_string(get_battery_level()) + "\n-----------------------------\n"
+            + "Status: " + get_status
+            
+            
+            () + "\n-----------------------------\n"
+            + "Mission Name: " + get_mission_name() + "\n-----------------------------\n"
+            + "Waypoints: " + "\n"
+            + get_waypoints() + "\n"
+            + "AI mode: " + getMode()
+            + "Home Position: " + "(" + to_string(get<0>(get_home_position())) + "," + to_string(get<1>(get_home_position())) + "," + to_string(get<2>(get_home_position())) + ")";
+
+            return result;
+}
 
     string AutonomousDrone::getMode(){
         return ai_mode;
     }
 
-    tuple<float, float, float> AutonomousDrone::getHomePosition(){
+    tuple<float, float, float> AutonomousDrone::get_home_position(){
         return home_position;
     }
 
-    string AutonomousDrone::getObstacleLog(){
+    string AutonomousDrone::get_obstacle_log(){
         string result;
 
         for(const auto& it : obstacle_log)

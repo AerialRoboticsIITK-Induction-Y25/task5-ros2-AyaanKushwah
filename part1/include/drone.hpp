@@ -27,15 +27,15 @@ Drone(const std::string& name, const float& battery_level,
 
     void emergency_stop(); //Cuts 30 battery as penalty
 
-    void get_info() override; //override it
+    std::string get_info() override; //override it
 
-    float getSpeed();
+    float get_speed();
 
-    float getAltitude();
+    float get_altitude();
 
 public:
-    void setSpeed(const float& speed);
-    void setXSpeed(const float& Xspeed);
-    void setYSpeed(const float& Yspeed);
-    void setZSpeed(const float& Zspeed);
+    void set_speed(const float& speed);
+    void set_x_speed(const float& Xspeed);
+    void set_y_speed(const float& Yspeed);
+    void set_z_speed(const float& Zspeed);
 };
