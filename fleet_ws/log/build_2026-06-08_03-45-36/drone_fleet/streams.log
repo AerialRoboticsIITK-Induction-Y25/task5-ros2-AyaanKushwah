@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet
+[0.043s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.512s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.568s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.762s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.006s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.038s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.247s] -- Configuring done (1.2s)
+[1.252s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[1.252s]   Cannot find source file:
+[1.252s] 
+[1.252s]     ../../../src/main.cpp
+[1.252s] 
+[1.253s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.253s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.253s]   .f95 .f03 .hip .ispc
+[1.253s] 
+[1.253s] [0m
+[1.258s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[1.258s]   No SOURCES given to target: drone_node
+[1.258s] 
+[1.258s] [0m
+[1.258s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.271s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet

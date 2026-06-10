@@ -1,0 +1,38 @@
+[0.017s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet
+[0.044s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.464s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.525s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.546s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.737s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.017s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.045s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.257s] -- Configuring done (1.2s)
+[1.292s] -- Generating done (0.0s)
+[1.307s] -- Build files have been written to: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet
+[1.322s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet -DCMAKE_INSTALL_PREFIX=/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet
+[1.325s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet -- -j8 -l8
+[1.415s] [ 10%] [32mBuilding CXX object CMakeFiles/fleet_manager.dir/src/fleet_manager.cpp.o[0m
+[1.416s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/vehicle.cpp.o[0m
+[1.416s] [ 40%] [32mBuilding CXX object CMakeFiles/health_monitor.dir/src/health_monitor.cpp.o[0m
+[1.416s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/drone.cpp.o[0m
+[1.416s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/autonomous_drone.cpp.o[0m
+[1.423s] [ 60%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o[0m
+[1.424s] [ 70%] [32mBuilding CXX object CMakeFiles/drone_node.dir/home/ayaankushwah/task5-ros2-AyaanKushwah/part1/src/mission_drone.cpp.o[0m
+[2.222s] [01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+[2.226s]     8 | #include [01;31m[K"std_srvs/srv/trigger.hpp"[m[K
+[2.226s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.226s] compilation terminated.
+[2.245s] gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:76: CMakeFiles/drone_node.dir/src/drone_node.cpp.o] Error 1
+[2.245s] gmake[2]: *** Waiting for unfinished jobs....
+[3.431s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/drone_node.dir/all] Error 2
+[3.432s] gmake[1]: *** Waiting for unfinished jobs....
+[17.414s] [ 80%] [32m[1mLinking CXX executable health_monitor[0m
+[17.992s] [ 80%] Built target health_monitor
+[18.378s] [ 90%] [32m[1mLinking CXX executable fleet_manager[0m
+[18.948s] [ 90%] Built target fleet_manager
+[18.950s] gmake: *** [Makefile:146: all] Error 2
+[18.953s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet -- -j8 -l8

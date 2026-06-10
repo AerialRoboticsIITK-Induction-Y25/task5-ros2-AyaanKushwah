@@ -1,0 +1,23 @@
+In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:2[m[K:
+/usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = MissionDrone; _Args = {__cxx11::basic_string<char, char_traits<char>, allocator<char> >&, float, float}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<MissionDrone>][m[K[m[K’:
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:40:48:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMissionDrone::MissionDrone(std::__cxx11::basic_string<char>&, float, float)[m[K’
+ 1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/src/drone_node.cpp:8[m[K:
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:29:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMissionDrone::[01;32m[KMissionDrone[m[K(const std::string&, const float&, const float&, const std::string&, const std::vector<std::tuple<float, float, float> >&)[m[K’
+   29 |     [01;36m[KMissionDrone[m[K(const std::string& drone_name, const float& battery_level, const float& max_altitude, const std::string& mission_name,  const std::vector<std::tuple<float, float, float>>& waypoints); //Constructor
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:29:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:22:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMissionDrone::[01;32m[KMissionDrone[m[K()[m[K’
+   22 |     [01;36m[KMissionDrone[m[K();
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:22:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMissionDrone::[01;32m[KMissionDrone[m[K(const MissionDrone&)[m[K’
+    8 | class [01;36m[KMissionDrone[m[K : public Drone{
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/src/drone_fleet/../../../part1/include/mission_drone.hpp:8:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:76: CMakeFiles/drone_node.dir/src/drone_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/drone_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

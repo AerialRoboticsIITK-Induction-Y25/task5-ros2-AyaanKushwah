@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet
+[ 20%] Built target health_monitor
+[ 80%] Built target fleet_manager
+[100%] Built target drone_node
+-- Install configuration: ""
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch/fleet.launch.py
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.dsv
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+-- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.xml

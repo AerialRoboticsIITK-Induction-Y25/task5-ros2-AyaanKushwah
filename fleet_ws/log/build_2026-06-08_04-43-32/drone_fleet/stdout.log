@@ -1,0 +1,29 @@
+[ 40%] Built target fleet_manager
+[ 40%] Built target health_monitor
+[ 50%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_node.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable drone_node[0m
+[100%] Built target drone_node
+-- Install configuration: ""
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node
+-- Set non-toolchain portion of runtime path of "/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node" to ""
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+-- Set non-toolchain portion of runtime path of "/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager" to ""
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+-- Set non-toolchain portion of runtime path of "/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor" to ""
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch/fleet.launch.py
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.dsv
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+-- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.xml

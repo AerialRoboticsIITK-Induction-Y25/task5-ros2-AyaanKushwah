@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet -- -j8 -l8
+[0.048s] [ 40%] Built target fleet_manager
+[0.048s] [ 40%] Built target health_monitor
+[0.055s] [100%] Built target drone_node
+[0.064s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet -- -j8 -l8
+[0.072s] Invoking command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet
+[0.078s] -- Install configuration: ""
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/drone_node
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/fleet_manager
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/lib/drone_fleet/health_monitor
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet//launch/fleet.launch.py
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/package_run_dependencies/drone_fleet
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/parent_prefix_path/drone_fleet
+[0.078s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.sh
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/environment/path.dsv
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.bash
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.sh
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.zsh
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/local_setup.dsv
+[0.079s] -- Installing: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.dsv
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/ament_index/resource_index/packages/drone_fleet
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig.cmake
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/cmake/drone_fleetConfig-version.cmake
+[0.079s] -- Up-to-date: /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/install/drone_fleet/share/drone_fleet/package.xml
+[0.080s] Invoked command in '/home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayaankushwah/ros2_wr/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ayaankushwah/task5-ros2-AyaanKushwah/fleet_ws/build/drone_fleet
